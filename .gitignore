@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# scratch work
+notebooks/trial/*.ipynb
+nidhi.txt
+
+# Data & datasets
+data/
+!data_cards/     # keep metadata/data cards in git
+
+# Experiment logs / runs
+exp/runs/
+
+# Hugging Face / model checkpoints
+*.bin
+*.pt
+*.ckpt
+*.safetensors
+*.h5
+*.onnx
+
+# Tokenizers cache
+.tokenizers_cache/
+.cache/
+huggingface/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code settings
+.vscode/
